@@ -1,0 +1,271 @@
+/* Default Css */
+* {
+
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1240px;
+    margin: auto;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+img {
+    max-width: 100%;
+}
+
+p {
+    font-family: 'Open Sans';
+}
+
+/* Header Section */
+.header {
+    background-color: #22c3a3;
+}
+
+.header_left {
+    float: left;
+    width: 30%;
+}
+
+.header_left span {
+    color: #ffff;
+    font-size: 30px;
+    line-height: 80px;
+    padding: 0 30px;
+}
+
+.header_right {
+    float: right;
+    width: 70%;
+
+}
+
+.header_right ul {
+    text-align: right;
+}
+
+.header_right ul li {
+    display: inline-block;
+}
+
+.header_right ul li a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    padding: 0 20px;
+    text-transform: uppercase;
+    line-height: 80px;
+}
+
+/* Banner Section */
+.banner_section {
+    background: url(./img/header-bg01.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.banner_section h1 {
+    text-transform: uppercase;
+    color: #fff;
+    padding-top: 150px;
+    line-height: 80px;
+    font-size: 45px;
+
+}
+
+.banner_section p {
+    color: #d0f2ec;
+    font-weight: 600;
+    padding-bottom: 40px;
+    font-size: 20px;
+
+}
+
+.banner_section button {
+    margin-bottom: 100px;
+    text-transform: uppercase;
+    padding: 10px 25px;
+    font-family: 'Open Sans';
+    font-size: 20px;
+    border: 2px solid #fff;
+    background-color: #0bbe9a;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: 400;
+
+
+}
+
+/* Service Section */
+.service_section {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.service_section h2 {
+    font-size: 40px;
+    margin-bottom: 16px;
+}
+
+.service_section p {
+    max-width: 900px;
+    margin: auto;
+    font-size: 20px;
+}
+
+.service_section .service_item {
+    width: 20%;
+    float: left;
+    padding: 25px 10px;
+    box-sizing: border-box;
+    margin-left: 4%;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.service_section .service_item span {
+    display: block;
+    width: 60px;
+    height: 60px;
+    color: #0dbf9b;
+    margin: auto;
+    font-size: 35px;
+    line-height: 60px;
+
+}
+
+.service_section h3 {
+    margin: 10px 0;
+    font-size: 25px;
+}
+
+/* hr  */
+.hr {
+    width: 100%;
+    height: auto;
+    border: 1px solid #0dbf9b;
+}
+
+/* about section  */
+
+.about_section {
+    margin-top: 60px;
+
+}
+
+.about_section h2 {
+    font-size: 40px;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.about_section p {
+    max-width: 800px;
+    margin: auto;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.about_item h3 {
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #494646;
+}
+
+.about_section p {
+    color: #494646;
+}
+
+.about_image img {
+    float: left;
+    width: 30%;
+    height: 300px;
+
+}
+
+.about_content {
+    float: right;
+    width: 65%;
+    margin-left: 5px;
+
+}
+
+/* Contact Section */
+.contact_section {
+    text-align: center;
+    margin-top: 60px;
+    background-color: #f6f6f6;
+}
+
+.contact_section h2 {
+    font-size: 40px;
+    margin-bottom: 16px;
+}
+
+.contact_section p {
+    max-width: 900px;
+    margin: auto;
+    font-size: 20px;
+}
+
+.contact_section .contact_item {
+    width: 25%;
+    float: left;
+    padding: 25px 10px;
+    box-sizing: border-box;
+    margin-left: 7%;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.contact_section .contact_item span {
+    display: block;
+    width: 60px;
+    height: 60px;
+    color: #0dbf9b;
+    margin: auto;
+    font-size: 35px;
+    line-height: 60px;
+
+}
+
+/* footer section */
+.social_icon {
+    background-color: #0dbf9b;
+    text-align: center;
+}
+
+.social_icon ul {}
+
+.social_icon ul li {
+    display: inline-block;
+}
+
+.social_icon ul li a {
+    color: #fff;
+    font-size: 30px;
+    margin-left: 20px;
+    line-height: 80px;
+}
+}
+
+.social_icon ul li a:hover {}
+
+/* copy right */
+.copy_right {
+    text-align: center;
+    background-color: black;
+    color: #4d4d4d;
+    line-height: 60px;
+    font-size: 25px;
+}
